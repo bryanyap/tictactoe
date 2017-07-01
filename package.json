@@ -1,0 +1,22 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanyap/tictactoe.git"
+  },
+  "author": "Edison Neo & Bryan Yap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanyap/tictactoe/issues"
+  },
+  "homepage": "https://github.com/bryanyap/tictactoe#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
