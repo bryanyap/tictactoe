@@ -1,9 +1,13 @@
 const express = require('express')
 const app = express()
 
+app.set('view engine', 'pug')
+
+
 app.get('/', function (req, res) {
-  res.send('Bryan is a piece of shit!')
+  res.render('index', { title: 'Hey', message: 'Hello there!' })
 })
+
 
 
 var port = process.env.PORT || 3000;
