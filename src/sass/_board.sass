@@ -1,0 +1,30 @@
+
+.board 
+	min-height: 100vh
+	width: 100%
+	display: flex 
+	align-items: center 
+	justify-content: center
+
+.board__wrapper
+	height: 420px 
+	width: 420px
+	display: flex 
+	flex-wrap: wrap
+
+.board__node 
+	cursor: pointer
+	width: 33.333%
+	height: 33.333%
+	box-sizing: border-box
+	padding: 12px  
+
+.board__inner 
+	transition: 0.5s ease-in-out
+	background: $mid-grey
+	width: 100%
+	height: 100%
+	border-radius: 15px
+	&:hover 
+		background: $light-grey
+

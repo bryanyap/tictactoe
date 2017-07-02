@@ -1,6 +1,56 @@
-html
+doctype html
+html(lang="en")
 	head
-		title WEEEE
-		link(rel='stylesheet', href='app.css')
-	body
-		h1 ASDASSD
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+		title TIC TAC TOE
+
+		meta(name='language', content='en')
+		meta(name='apple-mobile-web-app-capable', content='yes')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0')
+
+		//- SEO Meta Description
+		meta(name="description" content="Lorem Ipsum")
+		//- SEO Keywords
+		meta(name="keywords" content="keywords, key")
+		//- hreflang
+		link(rel="alternate", href="SITE_URL", hreflang="x-default")
+
+		//- FAVICON
+		link(rel="icon", type="image/png", href="myicon.png")
+
+		//- *********************** -//
+		//- 	   CSS FILES 		-//
+		//- *********************** -//
+
+		//- CSS FILE: APP
+		link(type='text/css', rel='stylesheet', media='all', href='app.css')
+	body 
+		.page-wrapper
+			.board
+				.board__wrapper
+					.board__node.board__node--topl
+						.board__inner
+					.board__node.board__node--topc
+						.board__inner
+					.board__node.board__node--topr
+						.board__inner
+					.board__node.board__node--cenl
+						.board__inner
+					.board__node.board__node--cenc
+						.board__inner
+					.board__node.board__node--cenr
+						.board__inner
+					.board__node.board__node--botl
+						.board__inner
+					.board__node.board__node--botc
+						.board__inner
+					.board__node.board__node--botr
+						.board__inner
+
+
+
+
+		
+		script(src="app.js")

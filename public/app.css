@@ -1,6 +1,37 @@
 body {
-  background: #555; }
-  body h1 {
-    color: red; }
+  background: #f4f4f4;
+  margin: 0; }
+
+.page-wrapper {
+  min-height: 100vh; }
+
+.board {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.board__wrapper {
+  height: 420px;
+  width: 420px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.board__node {
+  cursor: pointer;
+  width: 33.333%;
+  height: 33.333%;
+  box-sizing: border-box;
+  padding: 12px; }
+
+.board__inner {
+  transition: 0.5s ease-in-out;
+  background: #d5d5d5;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px; }
+  .board__inner:hover {
+    background: #eee; }
 
 /*# sourceMappingURL=app.css.map */

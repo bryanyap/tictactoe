@@ -4,6 +4,7 @@ const sass = require('node-sass')
 const sassMiddleware = require('node-sass-middleware');
 const path = require('path');
 
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
@@ -14,6 +15,8 @@ app.use(require('node-sass-middleware')({
   indentedSyntax: true,
   sourceMap: true,
 }));
+
+
 
 app.use(express.static(path.join(__dirname, '/public')));
 // Note: you must place sass-middleware *before* `express.static` or else it will
